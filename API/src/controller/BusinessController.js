@@ -71,33 +71,33 @@ class BusinessController {
             })
     }
 
-    async done(req, res) {
-        await BusinessModel.findByIdAndUpdate(
-            {'_id': req.params.id}, 
-            {'done': req.params.done}, 
-            {new: true})
-            .then(response => {
-                return res.status(200).json(response);
-            })
-            .catch(error => {
-                return res.status(500).json(error);    
-            });
-    }
+    // async done(req, res) {
+    //     await BusinessModel.findByIdAndUpdate(
+    //         {'_id': req.params.id}, 
+    //         {'done': req.params.done}, 
+    //         {new: true})
+    //         .then(response => {
+    //             return res.status(200).json(response);
+    //         })
+    //         .catch(error => {
+    //             return res.status(500).json(error);    
+    //         });
+    // }
 
-    async late(req, res) {
-        await BusinessModel
-        .find({
-            'when': {'$lt': current},
-            'macaddress': {'$in': req.params.macaddress}
-        })
-        .sort('when')
-        .then(response => {
-            return res.status(200).json(response);
-        })
-        .catch(error => {
-            return res.status(500).json(error);
-        });
-    }
+    // async late(req, res) {
+    //     await BusinessModel
+    //     .find({
+    //         'when': {'$lt': current},
+    //         'macaddress': {'$in': req.params.macaddress}
+    //     })
+    //     .sort('when')
+    //     .then(response => {
+    //         return res.status(200).json(response);
+    //     })
+    //     .catch(error => {
+    //         return res.status(500).json(error);
+    //     });
+    // }
 
     async today(req, res) {
         await BusinessModel

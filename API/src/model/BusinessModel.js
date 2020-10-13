@@ -18,6 +18,13 @@ const businessSchema = new Schema({
         type: String,
         required: true
     },
+    cep: {
+        type: String,
+        required: true
+    },
+    address:{
+        type: String,
+    },
     when: {
         type: Date,
         required: true
