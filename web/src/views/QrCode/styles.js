@@ -18,7 +18,7 @@ export const Content = styled.div`
         margin:0px; 
     }
     p {
-        color: #20295F;
+        color: #53934d;
     }
 `
 export const QrCodeArea = styled.div`
@@ -56,7 +56,7 @@ export const ValidationCode = styled.div`
         margin-bottom: 70px;
 
         &:hover {
-            background: #20295F;
+            opacity: 0.5;
         }
     }
 `

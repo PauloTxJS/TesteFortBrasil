@@ -6,23 +6,23 @@ export const Container = styled.div`
     background: #F0EEA5;
     border-bottom:5px solid #53934d;    
     display: flex;
-    position: fixed-top;
+    
 `
 
 export const LeftSide = styled.div`
-    width:50%;
+    width:30%;
     height:70px;
 
     display:flex;
     align-items: center;
     padding-left:1%;
     img {
-        width:25%;
+        width:35%;
     }
 `
 
 export const RightSide = styled.div`
-    width:50%;
+    width:70%;
     height:70px;
     display: flex;
     align-items: center;
