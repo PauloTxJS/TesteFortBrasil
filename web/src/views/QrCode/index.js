@@ -18,7 +18,7 @@ function QrCode() {
 		if (!mac) {
 			alert('Informe o código do smartphone');
 		} else {
-			await localStorage.setItem('@todo/macaddress', mac);
+			await localStorage.setItem('@yourMac/macaddress', mac);
 			setRedirect(true);
 			window.location.reload();
 		}		
