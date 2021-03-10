@@ -24,8 +24,8 @@
 3. Run the project with the command: **yarn start**
 
 
-![banner](https://github.com/PauloTxJS/TesteFortBrasil/blob/main/web/src/assets/tela1.png)
+![banner](https://github.com/pauloteixeira01/TesteFortBrasil/blob/main/web/src/assets/tela1.png)
 
-![banner](https://github.com/PauloTxJS/TesteFortBrasil/blob/main/web/src/assets/tela2.png)
+![banner](https://github.com/pauloteixeira01/TesteFortBrasil/blob/main/web/src/assets/tela2.png)
 
-![banner](https://github.com/PauloTxJS/TesteFortBrasil/blob/main/web/src/assets/tela3.png)
+![banner](https://github.com/pauloteixeira01/TesteFortBrasil/blob/main/web/src/assets/tela3.png)
